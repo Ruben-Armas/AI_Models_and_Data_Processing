@@ -5,6 +5,7 @@
 3- Create a .py file that will be the code for the website
 
 4- Create a requeriments.txt file with the following content
+
     gunicorn==19.9.0
     Flask==1.1.1
     numpy==1.20.3
@@ -17,6 +18,7 @@
 6- Opens the folder location in the miniConda command console (Anaconda Prompt)
 
 7- Enter the following commands:
+
     7.1- create and activate the environment
     conda create -n siticleta
     conda activate siticleta
@@ -36,6 +38,7 @@
 
 
 folder view:
+
     - requeriments.txt
     - appsiticleta.py
     - models (folder --> API_Siticleta.pkl, Escalador.pkl)
