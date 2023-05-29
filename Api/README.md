@@ -4,7 +4,7 @@
 
 3- Create a .py file that will be the code for the website
 
-4- Create a requeriments.txt file with the following content
+4- Create a requeriments.txt file with the following content:
 
     gunicorn==19.9.0
     Flask==1.1.1
