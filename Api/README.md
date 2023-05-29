@@ -1,6 +1,9 @@
 1- miniConda must be installed
+
 2- Create a folder to store the API
+
 3- Create a .py file that will be the code for the website
+
 4- Create a requeriments.txt file with the following content
     gunicorn==19.9.0
     Flask==1.1.1
@@ -8,8 +11,11 @@
     pandas==1.3.5
     scikit-learn==1.0.2
     streamlit==0.82.0
+    
 5- Create a folder 'models' to store models and scalers exported from training.
+
 6- Opens the folder location in the miniConda command console (Anaconda Prompt)
+
 7- Enter the following commands:
     7.1- create and activate the environment
     conda create -n siticleta
