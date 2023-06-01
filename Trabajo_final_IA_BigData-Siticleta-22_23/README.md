@@ -1,9 +1,9 @@
 ![Imagen de Sagulpa](img/SAGULPA.png)
 
 # Recursos disponibles
-	* [Código fuente](https://github.com/Ruben-Armas/AI_Models_and_Data_Processing/tree/8e0b2a10cf05641459b1fd6c1ca6895a79e05ce9/Trabajo_final_IA_BigData-Siticleta)
-	* [DataSets](https://github.com/Ruben-Armas/AI_Models_and_Data_Processing/tree/8e0b2a10cf05641459b1fd6c1ca6895a79e05ce9/DataSets/Sagulpa/S%C3%ADticleta)
-	* [API](https://github.com/Ruben-Armas/AI_Models_and_Data_Processing/tree/8e0b2a10cf05641459b1fd6c1ca6895a79e05ce9/Api)
+	- [Código fuente](https://github.com/Ruben-Armas/AI_Models_and_Data_Processing/tree/8e0b2a10cf05641459b1fd6c1ca6895a79e05ce9/Trabajo_final_IA_BigData-Siticleta)
+	- [DataSets](https://github.com/Ruben-Armas/AI_Models_and_Data_Processing/tree/8e0b2a10cf05641459b1fd6c1ca6895a79e05ce9/DataSets/Sagulpa/S%C3%ADticleta)
+	- [API](https://github.com/Ruben-Armas/AI_Models_and_Data_Processing/tree/8e0b2a10cf05641459b1fd6c1ca6895a79e05ce9/Api)
 
 
 # Introducción
@@ -12,21 +12,21 @@ A continuación se exponen los resultados obtenidos en el trabajo de fin de curs
 El propósito de este caso de uso es, utilizar modelos de Inteligencia Artificial para realizar una predicción del número de alquileres de bicicletas que se realizarán en una estación de alquiler, en un día, hora y clima determinado.
 
 ## Objetivos del proyecto
-	* Aumentar el rendimiento del servicio de alquiler de bicicletas (Síticleta), gestionado por Sagulpa.
-	* Mejorar la movilidad en las ciudades.
-	* Dar una alternativa eficaz al medio de transporte privado individual.
-	* Ayudar en la transición ecológica que están teniendo las ciudades.
+	- Aumentar el rendimiento del servicio de alquiler de bicicletas (Síticleta), gestionado por Sagulpa.
+	- Mejorar la movilidad en las ciudades.
+	- Dar una alternativa eficaz al medio de transporte privado individual.
+	- Ayudar en la transición ecológica que están teniendo las ciudades.
 
 
 # Datos
 Las fuentes de datos utilizadas son:
-	* [Sagulpa](https://www.sagulpa.com/datos-abiertos). Datos abiertos de alquiler de bicicletas. 
-	* [TuTiempo.net](https://www.tutiempo.net/registros/gclp/1-diciembre-2019.html). Web de datos meteorológicos.
-	* A estas anteriores se suma la librería de Python [workalendar](https://github.com/workalendar/workalendar), con la cual se indica si el día es laboral o no.
+	- [Sagulpa](https://www.sagulpa.com/datos-abiertos). Datos abiertos de alquiler de bicicletas. 
+	- [TuTiempo.net](https://www.tutiempo.net/registros/gclp/1-diciembre-2019.html). Web de datos meteorológicos.
+	- A estas anteriores se suma la librería de Python [workalendar](https://github.com/workalendar/workalendar), con la cual se indica si el día es laboral o no.
 
 La dimensionalidad de los datos ya tratados son:
-	* Unas 12.000 filas cada mes.
-	* Unas 140.000 filas por año.
+	- Unas 12.000 filas cada mes.
+	- Unas 140.000 filas por año.
 
 ## Reducción de características
 Debido al problema que representa la conocida Maldición de la Dimensionalidad. La cual indica que para tener buenos resultados, la cantidad de datos debe crecer exponencialmente en función del número de características.
@@ -62,11 +62,11 @@ Este primer acercamiento al caso de uso, ha servido para identificar problemas y
 Ha servido como punto de partida, con varios puntos de mejora.
 
 ## Mejoras propuestas
-	* Tratar los datos para generar registros en los que no se alquilen bicicletas, para poder identificar los momentos en los que la cantidad de alquileres deba ser 0.
-	* Utilizar redes neuronales aplicando técnicas de busqueda de hiperparámetros.
-	* Reducir más el problema de la Maldición de la Dimensionalidad, agrupando varias características en una que las englobe. Como tramos horarios, estaciones, etc.
-	* Balancear los datos
-		* Disminuyendo las clases mayoritarias (submuestreo)
-		* Aumentando las clases minoritarias (sobremuestreo)
-		* Combinación de ambas técnicas
-		* Generación de datos sintéticos
+	- Tratar los datos para generar registros en los que no se alquilen bicicletas, para poder identificar los momentos en los que la cantidad de alquileres deba ser 0.
+	- Utilizar redes neuronales aplicando técnicas de busqueda de hiperparámetros.
+	- Reducir más el problema de la Maldición de la Dimensionalidad, agrupando varias características en una que las englobe. Como tramos horarios, estaciones, etc.
+	- Balancear los datos
+		- Disminuyendo las clases mayoritarias (submuestreo)
+		- Aumentando las clases minoritarias (sobremuestreo)
+		- Combinación de ambas técnicas
+		- Generación de datos sintéticos
