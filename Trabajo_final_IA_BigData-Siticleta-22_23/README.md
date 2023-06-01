@@ -42,7 +42,7 @@ Se han omitido las variables de temperatura, viento, humedad y presión.
 Dejando como característica representativa de todas ellas a 'weatherConditions'(Despejado, nublado, etc)
 
 
-# problemas encontrados
+# Problemas encontrados
 Una vez obtenidos los datos y haber sido tratados con [Power BI](https://powerbi.microsoft.com/es-es/desktop/).
 
 Se han realizado diversas pruebas con varios modelos, pero he llegado a la conclusión de que los datos están demasiado desbalanceados para que den buenos resultados.
