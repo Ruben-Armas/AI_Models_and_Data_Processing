@@ -75,9 +75,11 @@ Este primer acercamiento al caso de uso, ha servido para identificar problemas y
 Ha servido como punto de partida, con varios puntos de mejora.
 
 ## Mejoras propuestas
-	- Tratar los datos para generar registros en los que no se alquilen bicicletas, para poder identificar los momentos en los que la cantidad de alquileres deba ser 0.
+	- Tratar los datos para generar registros en los que no se alquilen bicicletas, 
+	para poder identificar los momentos en los que la cantidad de alquileres deba ser 0.
 	- Utilizar redes neuronales aplicando técnicas de busqueda de hiperparámetros.
-	- Reducir más el problema de la Maldición de la Dimensionalidad, agrupando varias características en una que las englobe. Como tramos horarios, estaciones, etc.
+	- Reducir más el problema de la Maldición de la Dimensionalidad, agrupando varias
+	características en una que las englobe. Como tramos horarios, estaciones, etc.
 	- Balancear los datos
 		- Disminuyendo las clases mayoritarias (submuestreo)
 		- Aumentando las clases minoritarias (sobremuestreo)
