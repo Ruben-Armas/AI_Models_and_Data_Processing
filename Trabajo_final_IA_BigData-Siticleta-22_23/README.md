@@ -1,9 +1,12 @@
 ![Imagen de Sagulpa](img/SAGULPA.png)
 
 # Recursos disponibles
-[Código fuente](https://github.com/Ruben-Armas/AI_Models_and_Data_Processing/tree/dc0889ea077036ec3c326c16e266ef6156ef1d37/Trabajo_final_IA_BigData-Siticleta-22_23)
-	[DataSets](https://github.com/Ruben-Armas/AI_Models_and_Data_Processing/tree/8e0b2a10cf05641459b1fd6c1ca6895a79e05ce9/DataSets/Sagulpa/S%C3%ADticleta)
-	[API](https://github.com/Ruben-Armas/AI_Models_and_Data_Processing/tree/8e0b2a10cf05641459b1fd6c1ca6895a79e05ce9/Api)
+- [Código fuente](https://github.com/Ruben-Armas/AI_Models_and_Data_Processing/tree/dc0889ea077036ec3c326c16e266ef6156ef1d37/Trabajo_final_IA_BigData-Siticleta-22_23)
+
+- [DataSets](https://github.com/Ruben-Armas/AI_Models_and_Data_Processing/tree/8e0b2a10cf05641459b1fd6c1ca6895a79e05ce9/DataSets/Sagulpa/S%C3%ADticleta)
+
+- [API](https://github.com/Ruben-Armas/AI_Models_and_Data_Processing/tree/8e0b2a10cf05641459b1fd6c1ca6895a79e05ce9/Api)
+https://github.com/Ruben-Armas/AI_Models_and_Data_Processing/tree/8e0b2a10cf05641459b1fd6c1ca6895a79e05ce9/Trabajo_final_IA_BigData-Siticleta
 
 
 # Introducción
@@ -21,9 +24,11 @@ El propósito de este caso de uso es, utilizar modelos de Inteligencia Artificia
 # Datos
 Las fuentes de datos utilizadas son:
 
-	[Sagulpa](https://www.sagulpa.com/datos-abiertos). Datos abiertos de alquiler de bicicletas. 
-	[TuTiempo.net](https://www.tutiempo.net/registros/gclp/1-diciembre-2019.html). Web de datos meteorológicos.
-	A estas anteriores se suma la librería de Python [workalendar](https://github.com/workalendar/workalendar), con la cual se indica si el día es laboral o no.
+- [Sagulpa](https://www.sagulpa.com/datos-abiertos). Datos abiertos de alquiler de bicicletas. 
+
+- [TuTiempo.net](https://www.tutiempo.net/registros/gclp/1-diciembre-2019.html). Web de datos meteorológicos.
+
+- A estas anteriores se suma la librería de Python [workalendar](https://github.com/workalendar/workalendar), con la cual se indica si el día es laboral o no.
 
 La dimensionalidad de los datos ya tratados son:
 
