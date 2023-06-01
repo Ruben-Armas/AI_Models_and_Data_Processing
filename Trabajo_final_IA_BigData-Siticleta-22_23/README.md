@@ -1,7 +1,7 @@
 ![Imagen de Sagulpa](img/SAGULPA.png)
 
 # Recursos disponibles
-- [Código fuente](https://github.com/Ruben-Armas/AI_Models_and_Data_Processing/tree/dc0889ea077036ec3c326c16e266ef6156ef1d37/Trabajo_final_IA_BigData-Siticleta-22_23)
+- [Código fuente](https://github.com/Ruben-Armas/AI_Models_and_Data_Processing/tree/main/Trabajo_final_IA_BigData-Siticleta-22_23)
 
 - [DataSets](https://github.com/Ruben-Armas/AI_Models_and_Data_Processing/tree/8e0b2a10cf05641459b1fd6c1ca6895a79e05ce9/DataSets/Sagulpa/S%C3%ADticleta)
 
