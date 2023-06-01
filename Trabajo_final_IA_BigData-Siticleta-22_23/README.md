@@ -68,6 +68,9 @@ Resultando con un 28% de presición con el mes de Febrero y un 15% con respecto 
 ## Evaluación de Precisión y Predicción de todo 2022
 ![Presición de 2022](img/metric_2022.png) ![Comparativa entre la Predicción y datos Reales de 2022](img/pred_2022.png)
 
+# Vista de la API
+[![Vídeo de la API web](enlace_a_la_miniatura_del_video)](img/API_siticleta.mp4)
+
 
 # Conclusiones
 Este primer acercamiento al caso de uso, ha servido para identificar problemas y ver lo complejo que es trabajar con conjuntos de datos muy grandes.
